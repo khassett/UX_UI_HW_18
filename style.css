@@ -55,8 +55,17 @@
         font-size: 18px;
         line-height: 150%;
     }
+    .main-content{
+        flex:1;
+    }
 
-    
+
+    .mysite{
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+
     #myname{
         margin: 0 0 50px 0;
     }
