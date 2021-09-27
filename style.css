@@ -22,7 +22,8 @@
             left: -103px;
     }
     
-    
+    /* STYLING */
+
     h1{
         font-family: Poppins;
         font-style: normal;
@@ -48,6 +49,14 @@
         line-height: 30px;
     }
     
+    h4{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 66px;
+    }
+
     p{
         font-family: Inter;
         font-style: normal;
@@ -55,24 +64,31 @@
         font-size: 18px;
         line-height: 150%;
     }
-    .main-content{
-        flex:1;
-    }
 
+    /* PAGE LAYOUT */
 
     .mysite{
         display: flex;
         min-height: 100vh;
         flex-direction: column;
+        margin: 0px;
     }
 
-    #myname{
-        margin: 0 0 50px 0;
+    .content-left{
+        width: 50%;
+        padding:0 0 0 200px;
+    }
+
+    .content-right{
+        width: 50%;
+        padding: 120px 200px 0px 100px;
     }
     
     #myTitle{
         color: #9B8B8A;
     }    
+
+    /* NAVIGATION BAR */
     
     .nav{
         width:100%;
@@ -86,24 +102,24 @@
             text-decoration: none;
         }
     
-        .main-nav{
-            display: flex;
-            flex-direction: row;
-            float: right;
-            align-items: center;
-            position: static;
-            margin-left: 923px;
-            margin-top: 34px;
-            width: 437px;
-            height: 22px;
-            }
-    
-        #logo{
-            margin: 0px;
-            height: 100px;
-            text-align: center;
-            float: left;
+    .main-nav{
+        display: flex;
+        flex-direction: row;
+        float: right;
+        align-items: center;
+        position: static;
+        margin-left: 923px;
+        margin-top: 34px;
+        width: 437px;
+        height: 22px;
         }
+
+    #logo{
+        margin: 0px;
+        height: 100px;
+        text-align: center;
+        float: left;
+    }
     
     .header {
             flex-direction: row;
@@ -113,23 +129,23 @@
             max-width: 1150px;
         }
     
-            li {
-                float: right;
-                display: block;
-                color: black;
-                text-align: center;
-                padding: 16px;
-                text-decoration: none;
-            }
-    
-            ul{
-                width: 100%;
-                margin-left: auto;
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-            }
+    li {
+        float: right;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+
+    ul{
+        width: 100%;
+        margin-left: auto;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
     
     .wrapper{
         display: flex;
@@ -139,25 +155,45 @@
        
     .intro{
         padding:0 0 25px 0;
-        border-bottom: 1px solid red;
-        margin-bottom: 50px;
+        border-bottom: 1px solid #BAAFBB;
+        margin-bottom: 35px;
     }
+/*
+    .hex {
+        margin-top: 30px;
+        width: 104px;
+        height: 60px;
+        background-color: red;
+        color: red;
+        position: relative;
+        display: inline-block;
+    }
+    .hex:before {
+        content: " ";
+        border-bottom: 30px solid;
+        border-color: inherit;
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+        position: absolute;
+        top: -30px;
+    }
+    .hex:after {
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        border-top: 30px solid;
+        border-color: inherit;
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+    }
+*/ 
+    /* BUTTONS */
 
-    
-    .content-left{
-        width: 50%;
-        padding:0 0 0 50px;
-    }
-
-    .content-right{
-        width: 50%;
-        padding: 100px 50px 30px 0;
-    }
-    
     .btn-cta{
         border: 1px transparent;
         background-color: #BAAFBB;
         font-size: 18px;
+        margin-top: 50px;
 
         /* Auto Layout */
         display: flex;
@@ -178,16 +214,46 @@
         color: #000000;
     }
     
-    
     .btn-cta:hover {
 
         border: 1px solid #896E8B;
         background: #FFFFFF;
 
     }
-    
-    footer{
-        background-color: #373738;
-        width: 100%;
-        color: white;
+
+    .CreativeProcess{
+        text-align: center;
     }
+
+    .footer{
+        font-family: Inter;
+        background-color: #BAAFBB;
+        width: 100%;
+        color: black;
+        text-transform: uppercase;
+    }
+
+    .footer-col{
+        width: 25%;
+        padding: 30px;
+    }
+
+    .myWork{
+        margin: auto;
+    } 
+      /* Add padding BETWEEN each column (if you want) */
+      .row > .column {
+        padding: 8px;
+      }
+      
+      /* Create four equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 25%;
+      }
+      
+      /* Content */
+      .content {
+        background-color: white;
+        padding: 10px;
+      }
