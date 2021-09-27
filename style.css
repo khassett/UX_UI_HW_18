@@ -128,12 +128,12 @@
     }
     
        
-    #intro{
-        width: 576px;
-        height: 230px;
-        left: 762px;
-        top: 395px;
+    .intro{
+        padding:0 0 25px 0;
+        border-bottom: 1px solid red;
+        margin-bottom: 50px;
     }
+
     
     .content-left{
         width: 50%;
@@ -146,7 +146,7 @@
     }
     
     .btn-cta{
-        border: none;
+        border: 1px transparent;
         background-color: #BAAFBB;
         font-size: 18px;
 
