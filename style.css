@@ -172,103 +172,37 @@
         color: #000000;
       }
     
-    button {
+      .btn-cta {
 
-        /* Property 1=Default */
-    
-            display: flex;
-            justify-content: center;
-     
-            width: 156px;
-            height: 46px;
-            left: 20px;
-            top: 20px;
-    
-            /* Auto Layout */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 12px 24px;
-            border-radius: 5px;
-    
-            font-family: Inter;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 18px;
-            line-height: 22px;
-    
-            /* identical to box height */
-            display: flex;
-            align-items: center;
-            text-align: center;
-    
-            color: #000000;
-    }
-    
-    .container{
-        display:flex;
-        justify-content: center;
-        }
-    
-    button:hover {
-        /* Property 1=Hover */
-    
+        border: none;
+        background-color: #BAAFBB;
+        font-size: 18px;
+
         /* Auto Layout */
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding: 0px;
-    
-        width: 156px;
-        height: 46px;
-        left: 20px;
-        top: 98px;
-    
-        border: 1px solid #896E8B;
-        border-radius: 5px;
-    
-    
-        /* Auto Layout */
-        display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 12px 24px;
-    
-        left: 0%;
-        right: 0%;
-        top: 0%;
-        bottom: 0%;
-    
-        background: #FFFFFF;
         border-radius: 5px;
-    
-        /* LABEL */
-    
-        left: 24px;
-        right: 24px;
-        top: 26.09%;
-        bottom: 26.09%;
-    
+
         font-family: Inter;
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
         line-height: 22px;
-        /* identical to box height */
-        display: flex;
+
         align-items: center;
         text-align: center;
-    
+
         color: #000000;
+    }
     
     
-        /* Inside Auto Layout */
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-        margin: 0px 0px;
-    
+    .btn-cta:hover {
+
+        border: 1px solid #896E8B;
+        background: #FFFFFF;
+
     }
     
     footer{
