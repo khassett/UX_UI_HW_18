@@ -238,22 +238,28 @@
         padding: 30px;
     }
 
-    .myWork{
+    .m-a{
         margin: auto;
     } 
-      /* Add padding BETWEEN each column (if you want) */
-    .row > .column {
-    padding: 8px;
-    }
     
     /* Create four equal columns that floats next to each other */
-    .column {
-    float: left;
-    width: 25%;
+    .row {
+    width: 33%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     }
     
     /* Content */
     .content {
     background-color: white;
-    padding: 10px;
+    padding: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .casestudy{
+        margin: auto;
     }
