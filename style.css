@@ -96,13 +96,12 @@
         display: flex;
         font-family: "Inter", sans-serif;
         font-size: 18px;
-        display: flex;
         flex-direction: row;
-        }
+    }
     
         a {
             text-decoration: none;
-        }
+    }
     
     .main-nav{
         display: flex;
@@ -110,7 +109,7 @@
         justify-content: end;
         align-items: center;
         width: 83%;
-        }
+    }
 
     #logo{
         margin: 0px;
