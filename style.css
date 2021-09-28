@@ -96,6 +96,8 @@
         display: flex;
         font-family: "Inter", sans-serif;
         font-size: 18px;
+        display: flex;
+        flex-direction: row;
         }
     
         a {
@@ -104,14 +106,10 @@
     
     .main-nav{
         display: flex;
-        flex-direction: row;
-        float: right;
+        flex-direction: row; 
+        justify-content: end;
         align-items: center;
-        position: static;
-        margin-left: 923px;
-        margin-top: 34px;
-        width: 437px;
-        height: 22px;
+        width: 83%;
         }
 
     #logo{
