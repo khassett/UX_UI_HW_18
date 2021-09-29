@@ -259,4 +259,13 @@
 
     .casestudy{
         margin: auto;
+        align-items:center;
+    }
+
+/* TOOLS */
+
+    .container{
+        justify-content: space-around;
+        padding: 30px;
+        align-self: flex
     }
