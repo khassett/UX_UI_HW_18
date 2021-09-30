@@ -140,8 +140,8 @@
         flex-direction: row;
     }
     
-        a {
-            text-decoration: none;
+    a {
+        text-decoration: none;
     }
     
     .main-nav{
@@ -309,4 +309,17 @@
         justify-content: space-around;
         padding: 30px;
         align-self: flex
+    }
+    .column-tools-top{
+        width: 33%;
+    }
+
+    .colum-tools-bottom{
+        width: 50%;
+    }
+    .svg{
+        width: 200px;
+        height: 185px;
+        background-color: #B9C8BC;
+        border-radius: 50%;
     }
