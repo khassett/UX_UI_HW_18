@@ -57,7 +57,6 @@
     
     #swirl{
             position: absolute;
-            width: 100%;
             z-index: -999;
             top: 13px;
             left: -103px;
@@ -196,35 +195,8 @@
         border-bottom: 1px solid #BAAFBB;
         margin-bottom: 35px;
     }
-/*
-    .hex {
-        margin-top: 30px;
-        width: 104px;
-        height: 60px;
-        background-color: red;
-        color: red;
-        position: relative;
-        display: inline-block;
-    }
-    .hex:before {
-        content: " ";
-        border-bottom: 30px solid;
-        border-color: inherit;
-        border-left: 100px solid transparent;
-        border-right: 100px solid transparent;
-        position: absolute;
-        top: -30px;
-    }
-    .hex:after {
-        content: "";
-        position: absolute;
-        bottom: -30px;
-        border-top: 30px solid;
-        border-color: inherit;
-        border-left: 100px solid transparent;
-        border-right: 100px solid transparent;
-    }
-*/ 
+
+    
     /* BUTTONS */
 
     .btn-cta{
@@ -337,4 +309,37 @@
         border-radius: 50%;
         margin: auto;
         display: flex;
+    }
+
+    /* HEXAGONS */
+
+    .hex {
+        float: left;
+        margin-left: 3px;
+        margin-bottom: -26px;
+    }
+    .hex .top {
+        width: 0;
+        border-bottom: 30px solid #6C6;
+        border-left: 52px solid transparent;
+        border-right: 52px solid transparent;
+    }
+    .hex .middle {
+        width: 104px;
+        height: 60px;
+        background: #6C6;
+    }
+    .hex .bottom {
+        width: 0;
+        border-top: 30px solid #6C6;
+        border-left: 52px solid transparent;
+        border-right: 52px solid transparent;
+    }
+    .hex-row {
+        clear: left;
+        width: 100%;
+        padding: 20px;
+    }
+    .hex-row.even {
+        margin-left: 53px;
     }
