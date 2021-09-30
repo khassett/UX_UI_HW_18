@@ -84,8 +84,8 @@
     h3{
         font-family: Inter;
         font-style: normal;
-        font-weight: 600;
-        font-size: 25px;
+        font-weight: 300;
+        font-size: 30px;
         line-height: 30px;
     }
     
@@ -233,6 +233,7 @@
 
     .CreativeProcess{
         text-align: center;
+        padding: 100px 0px 50px 0px;
     }
 
     .footer{
@@ -321,16 +322,22 @@
       
     .hex-col {
         width: 20%;
-        height: 1000px;
+        height: 500px;
     }
 
     .hex{    
         height: 300px;
         background-image: url("./images/Hexagon_blank.png");
         background-size: 100%;
+        text-align: center;
+        vertical-align: middle;
     }
 
     .hex-top{
         width: 33%;
     }
     
+    .hex:hover{
+        background-image: url("./images/hexagon-dark.png");
+        color: white;
+    }
