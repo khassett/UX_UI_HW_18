@@ -1,43 +1,4 @@
-/* MEDIA QUERIES */  
-    @media (max-width: 375px){
-        h1{
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 48px;
-            line-height: 72px;
-            display: flex;
-            align-items: center;
-            letter-spacing: 0.025em;
-        }
-        h2{
-            font-family: Inter;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 18px;
-            line-height: 22px;
-        }
-        h4{
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 20px;
-            line-height: 30px;
-            display: flex;
-            align-items: center;
-        }
-        p{
-            font-family: Inter;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 8px;
-            line-height: 163%;
-        }
-        .wrapper{
-            display: flex;
-            flex-direction: column;
-        }
-    }
+
     
     /*GRIDS*/
 
@@ -55,9 +16,10 @@
         .item3 { grid-area: right; }
         .item4 { grid-area: footer; }
     
-    #swirl{
+    .swirl{
             position: absolute;
             z-index: -999;
+            width: 100%; 
             top: 13px;
             left: -103px;
     }
@@ -228,7 +190,7 @@
 
         border: 1px solid #896E8B;
         background: #FFFFFF;
-
+        cursor: pointer;
     }
 
     .CreativeProcess{
@@ -281,23 +243,22 @@
 
     .container{
         justify-content: space-around;
-        padding: 30px;
         align-items: baseline;
     }
     .column-tools-top{
         width: 33%;
-        padding: 50px;
+        padding: 50px 0px;
         text-align: center;
     }
 
     .column-tools-bottom{
         width: 50%;
-        padding: 50px;
+        padding: 0px 0px 50px 0px;
         text-align: center;
     }
     .svg{
-        width: 59px;
-        height: 59px;
+        width: 80px;
+        height: 80px;
         background-color: #B9C8BC;
         border-radius: 50%;
         margin: auto;
@@ -330,7 +291,6 @@
         background-image: url("./images/Hexagon_blank.png");
         background-size: 100%;
         text-align: center;
-        vertical-align: middle;
     }
 
     .hex-top{
@@ -340,4 +300,53 @@
     .hex:hover{
         background-image: url("./images/hexagon-dark.png");
         color: white;
+    }
+
+
+    /* MEDIA QUERIES */  
+    @media only screen and (max-width: 600){
+        
+        main{
+            display: flex;
+            flex-direction: column;
+        }
+    
+
+        h1{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 72px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.025em;
+        }
+        h2{
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        h4{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+        }
+        p{
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 8px;
+            line-height: 163%;
+        }
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+        }
     }
