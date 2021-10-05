@@ -311,6 +311,10 @@
             flex-direction: column;
         }
     
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+        }
 
         h1{
             font-family: Poppins;
